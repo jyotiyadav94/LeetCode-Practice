@@ -38,7 +38,7 @@ def twoSum(self, nums, target):
 
 
 3. ListNode 
-
+```python
 class ListNode:
     def __init__(self,val=0,next=None):
         self.val=val
@@ -92,8 +92,8 @@ def main():
 
 if __name__ =="__main__":
     main()
-
-
+```
+```python
 3. Remove duplicates from the list 
 
 def removeduplicates(l1):
@@ -111,9 +111,10 @@ s = "112344"
 l1=[*s]
 res=removeduplicates(l1)
 print(res)
-
+```
 
 4. Remove Duplicates from the linked list
+```python
 def deleteDuplicates(l1):
     temp = ListNode()  # Create a dummy node to simplify the logic
     curr = temp
@@ -128,3 +129,4 @@ def deleteDuplicates(l1):
 
     return temp.next  # Skip the dummy node and return the next node
 
+```
