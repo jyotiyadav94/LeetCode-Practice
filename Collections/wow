@@ -1,0 +1,8 @@
+node{
+stage('SCM checckout'){
+def mvnHome = tool name: '', type: 'maven'
+git 'https://github.com/jyoti123yadav/Collections'
+}
+stage('compile-package'){
+sh 'maven package'
+}
